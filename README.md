@@ -4,11 +4,13 @@ An app to manage content lifecycle between Jellyfin, Jellyseerr, Sonarr, Radarr
 
 ### Build Status
 
-![Tests (main)](https://img.shields.io/github/actions/workflow/status/alex/jellycleaner/workflows/test.yml?branch=main&label=Tests&logo=github)
+![Tests (main)](https://img.shields.io/github/actions/workflow/status/alex4108/jellycleaner/test.yml?logo=go
+)
 
-![Build and Push](https://img.shields.io/github/actions/workflow/status/alex/jellycleaner/workflows/build-and-push.yml?branch=main&label=Build%20and%20Push&logo=docker)
+![Build and Push](https://img.shields.io/github/actions/workflow/status/alex4108/jellycleaner/build-and-push.yml?logo=docker&label=Release)
 
-![CodeQL](https://img.shields.io/github/actions/workflow/status/alex/jellycleaner/workflows/codeql.yml?branch=main&label=CodeQL&logo=github)
+![CodeQL](https://img.shields.io/github/actions/workflow/status/alex4108/jellycleaner/codeql.yml?logo=qualys&label=CodeQL
+)
 
 ### Releases
 
