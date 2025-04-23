@@ -1,4 +1,4 @@
-name: Build and Push Pipeline (main)
+name: Build and Push main
 
 on:
   push:
