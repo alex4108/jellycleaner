@@ -1,0 +1,36 @@
+jellyfin:
+  url: "http://jellyfin:8096"
+  libraries:
+    - name: "Movies"
+      type: "movie"
+      rules:
+        delete_if_watched_by_all: true
+        max_age_days: 180
+      exclusions:
+        - "Batman"
+        - "Spiderman"
+        - "Borat"
+    - name: "TV Shows"
+      type: "series"
+      rules:
+        delete_if_watched_by_all: true
+        max_age_days: 365
+      exclusions:
+        - "Breaking Bad"
+        - "Game of Thrones"
+        - "Archer"
+        
+sonarr:
+  url: "http://sonarr:8989"
+  
+radarr:
+  url: "http://radarr:7878"
+  
+jellyseerr:
+  url: "http://jellyseerr:5055"
+  enabled: true
+
+headed_out_playlist:
+  name: "Headed Out"
+  check_interval_hours: 24
+  deletion_delay_days: 14
